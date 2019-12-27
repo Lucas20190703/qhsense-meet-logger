@@ -1,0 +1,34 @@
+{
+  "author": {
+    "name": "Hristo Terezov",
+    "email": "hristo@jitsi.org"
+  },
+  "dependencies": {},
+  "description": "A simple npm utility module for logging",
+  "devDependencies": {
+    "jshint": "2.8.0",
+    "precommit-hook": "^3.0.0"
+  },
+  "keywords": [
+    "javascript",
+    "logging",
+    "simple"
+  ],
+  "licenses": [
+    {
+      "type": "Apache-2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0"
+    }
+  ],
+  "main": "./lib/",
+  "name": "qhsense-meet-logger",
+  "pre-commit": [
+    "lint"
+  ],
+  "scripts": {
+    "lint": "jshint .",
+    "validate": "npm ls"
+  },
+  "stability": "unstable",
+  "version": "0.1.1"
+}
